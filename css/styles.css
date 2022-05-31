@@ -121,16 +121,19 @@
     height: 20rem;
     background-size: cover;
     background-position: center;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
   
   }
   
+  .hero-heading {
+    color: aliceblue;
+    text-align: center;
+  }
+
   .hero-subheading {
     font-size: 24px;
     font-weight: 100;
     color: aliceblue;
-    font-size: 24px;
-    font-weight: 100;
     text-align: center;
   }
   
@@ -138,7 +141,7 @@
     width: 80%;
     height: 50px;
     float: center;
-    margin: 2rem 7rem;
+    margin: 2rem 9rem;
     border-radius: 8px;
     border: none;
   }
